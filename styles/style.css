@@ -208,7 +208,6 @@ main .wrapper-landing #welcome-image {
   background-size: cover;
   max-width: 100%;
   max-height: 100%;
-  /* color: #000000f9; */
 }
 .wrapper-services {
   min-height: 100vh;
@@ -919,7 +918,7 @@ footer #linkedin {
     max-width: 100%;
     max-height: 100%;
     margin-top: 1.5rem;
-    filter: drop-shadow(0px 50px 90px rgba(0, 0, 0, 0.75));
+    filter: drop-shadow(0px 50px 90px rgba(0, 0, 0, 0.3));
   }
   main .wrapper-landing .landing-abouts {
     align-items: center;
@@ -987,11 +986,6 @@ footer #linkedin {
   main .wrapper-landing .landing-abouts .lnd-title-primary {
     margin-top: 8vw;
     padding: 0;
-  }
-  main .wrapper-landing #welcome-image img {
-    max-width: 100%;
-    max-height: 100%;
-    filter: drop-shadow(0px 50px 90px rgba(0, 0, 0, 0.75));
   }
   main .wrapper-landing .lnd-hire-btn {
     font-size: 5vw;
@@ -1078,7 +1072,6 @@ footer #linkedin {
     margin-top: 0;
     max-width: 100%;
     max-height: 100%;
-    filter: drop-shadow(0px 50px 90px rgba(0, 0, 0, 0.75));
   }
   main .wrapper-landing .landing-abouts {
     margin-top: 0;
