@@ -69,7 +69,7 @@ nav {
   font-size: 30px;
   font-weight: 500;
   line-height: normal;
-  cursor: default;
+  cursor: pointer;
 }
 .navbar ul {
   display: flex;
@@ -816,6 +816,7 @@ footer #linkedin {
     display: block;
     color: #da2f5d;
     font-size: 2rem;
+    cursor: pointer;
     transition: all 0.4s ease-out;
   }
   .navbar ul .fas,
