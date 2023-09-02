@@ -109,9 +109,6 @@ nav {
   object-fit: cover;
   position: fixed;
   z-index: -2;
-  transform-style: preserve-3d;
-  perspective: 10000000px;
-  transform: translateZ(100px);
 }
 .wrapper-landing,
 .wrapper-services,
@@ -130,7 +127,7 @@ nav {
   background: linear-gradient(
     180deg,
     rgba(1, 0, 17, 0.838) 0%,
-    rgba(0, 6, 78, 0.838) 53.65%,
+    rgba(0, 6, 78, 0.838) 83.65%,
     rgba(1, 0, 16, 1) 100%
   );
   overflow: hidden;
