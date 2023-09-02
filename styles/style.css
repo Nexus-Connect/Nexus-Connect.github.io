@@ -831,7 +831,7 @@ footer #linkedin {
       rgba(108, 108, 110, 0.48) 0%,
       rgba(104, 104, 104, 0.16) 100%
     );
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
     position: fixed;
     top: 0;
     right: -40%;
