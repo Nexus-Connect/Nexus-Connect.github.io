@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexusConnect</title>
+  <link rel="icon" href="/assets/icons/favicon/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="/styles/style.css" />
+  <script type="text/javascript" src="/scripts/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo-container"><span>N</span>exusConnect</div>
+      <ul id="side-bar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-times" onclick="closeMenu()"></i>
+      </ul>
+      <i class="ri-menu-3-line" onclick="openMenu()"></i>
+    </nav>
+  </header>
+  <main>
+    <video id="bg-production-vid" autoplay loop muted>
+      <source src="/assets/vids/production.mp4" type="video/mp4">
+    </video>
+    <section class="wrapper">
+      <section id="home">
+        <div class="wrapper-landing">
+          <div class="landing-abouts">
+            <div class="lnd-heading-primary">
+              Crafting <br />
+              Solutions <br />
+              That Inspire
+            </div>
+            <div class="lnd-title-primary">
+              Nexus Connect will help you <br />
+              building your dream website today
+            </div>
+            <button class="lnd-hire-btn" onclick="openInNewTab()">
+              <p>Hire Us</p>
+            </button>
+          </div>
+          <div id="welcome-image" data-tilt data-tilt-reverse="true" data-tilt-max="7" data-tilt-scale="1.025">
+            <img src="/assets/image/LandingPage.png" />
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="wrapper-services">
+          <div class="lnd-scnd-pg-heading">
+            <p>About us</p>
+          </div>
+          <div class="lnd-scnd-pg-title">
+            <p>Here&apos;s what you can expect while working with us</p>
+          </div>
+          <div class="hrz-line"></div>
+          <div class="service-container-box">
+            <div class="first-service-container" data-tilt data-tilt-reverse="true" data-tilt-glare
+              data-tilt-max-glare="0.2" data-tilt-max="7" data-tilt-scale="1.025">
+              <img id="responsive" src="/assets/icons/services/Responsive.png" />
+              <p>
+                Responsive and mobile-friendly designs, ensuring a seamless
+                user experience across various devices
+              </p>
+            </div>
+            <div class="second-service-container" data-tilt data-tilt-max="7" data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.2" data-tilt-scale="1.025">
+              <img id="userFriendly" src="/assets/icons/services/UserFriendly.png" alt="" />
+              <p>
+                User-friendly interface, making it easy for visitors to
+                navigate and find the information they need.
+              </p>
+            </div>
+            <div class="third-service-container" data-tilt data-tilt-reverse="true" data-tilt-glare
+              data-tilt-max-glare="0.2" data-tilt-max="7" data-tilt-scale="1.025">
+              <img id="seo" src="/assets/icons/services/SEO.png" alt="" />
+                <p>
+                  Minimalist and clean design, focusing on essential elements
+                  that enhance user experience and load quickly.
+                </p>
+            </div>
+            <div class="last-service-container" data-tilt data-tilt-reverse="true" data-tilt-glare
+              data-tilt-max-glare="0.2" data-tilt-max="7" data-tilt-scale="1.025">
+              <img id="security" src="/assets/icons/services/Security.png" alt="" />
+              <p>
+                Building websites using secure coding practices, reducing the
+                risk of common vulnerabilities like SQL injection, XSS, CSRF,
+                etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="wrapper-skills">
+          <div class="lnd-skills-pg-heading">
+            <p>Skills</p>
+          </div>
+          <div class="lnd-skills-pg-title">
+            <p>
+              Let&apos;s build up your website from scratch and discuss any other web development needs
+            </p>
+          </div>
+          <div class="hrz-line"></div>
+          <section class="skills-pg-slider">
+            <div class="container">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-html5.svg">
+                    <p id="name">HTML</p>
+                    <p id="info">Mastering HTML5 to structure web content with semantic elements, forming the foundation of modern, accessible, and interactive user interfaces.</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-css.svg">
+                    <p id="name">CSS</p>
+                    <p id="info">Harnessing CSS to design captivating and responsive web interfaces, ensuring consistent visuals and seamless user experiences across devices.</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-javascript.svg">
+                    <p id="name">JavaScript</p>
+                    <p id="info">
+                      Utilizing JavaScript to build interactive and dynamic web applications, enhancing user engagement through real-time actions and seamless API interactions.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-react-native.svg">
+                    <p id="name">React</p>
+                    <p id="info">
+                      Creating reusable and interactive UI components with React, building modern web applications that efficiently update and render content through its virtual DOM.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-angularjs.svg">
+                    <p id="name">Angular</p>
+                    <p id="info">
+                      Leveraging Angular's comprehensive framework to develop scalable and feature-rich web applications, with efficient data binding and dependency management.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-mongo-db-64.png">
+                    <p id="name">MongoDB</p>
+                    <p id="info">
+                      Designing flexible and scalable data structures with MongoDB, a NoSQL database, to handle diverse data types and support dynamic data handling for modern applications.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-node-js.svg">
+                    <p id="name">Node.js</p>
+                    <p id="info">
+                      Building efficient and responsive server-side applications with Node.js, utilizing its asynchronous capabilities to handle requests, process data, and create seamless back-end services.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-tailwind-css.svg">
+                    <p id="name">Tailwind CSS</p>
+                    <p id="info">
+                      Speeding up front-end development with Tailwind CSS, utilizing its utility-first approach to create well-designed, responsive interfaces that are both consistent and maintainable.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-figma.svg">
+                    <p id="name">Figma</p>
+                    <p id="info">
+                      Our design tool that helps us to create user interfaces, prototypes, translate design concepts into interactive visuals, and facilitating collaboration.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-git.svg">
+                    <p id="name">Git</p>
+                    <p id="info">
+                      It is an essential version control system that ensures efficient collaboration and code management. We use Git to track changes, branch code, and merge contributions seamlessly.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-github.svg">
+                    <p id="name">GitHub</p>
+                    <p id="info">
+                      A platform that enhances our collaboration, code-sharing capabilities, and helps us to host projects, manage issues, and collaborate effectively.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-wordpress.svg">
+                    <p id="name">WordPress</p>
+                    <p id="info">
+                      It is a versatile content management system. We've developed custom themes and plugins using WordPress, tailoring websites to specific needs and delivering dynamic content experiences.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-bootstrap.svg">
+                    <p id="name">Bootstrap</p>
+                    <p id="info">
+                      It is a responsive front-end framework that accelerates my development process. We use Bootstrap's pre-designed components and grid system to create visually appealing and responsive layouts.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-android.svg">
+                    <p id="name">Android</p>
+                    <p id="info">
+                      Crafting responsive Android apps using Java/Kotlin, optimizing performance and UI for diverse devices and screen sizes.
+                    </p>                  
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-nextjs.svg">
+                    <p id="name">Next.JS</p>
+                    <p id="info">
+                      Creating fast, SEO-friendly React apps with Next.js through server-side rendering and dynamic features for enhanced user experience.
+                    </p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/assets/icons/skills/icons8-php.svg">
+                    <p id="name">PHP</p>
+                    <p id="info">
+                      Building dynamic web apps, leveraging PHP's power for data processing and integration with databases.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            </div>
+          </section>
+      </section>
+      <section id="contact">
+        <div class="wrapper-contact">
+          <div class="heading">
+            <p>Contact Us</p>
+          </div>
+        <div class="container-contact">
+          <aside class="left">
+            <div class="line1">
+                <p>Feel free to reach us</p>
+            </div>
+            <div class="line2">
+                <p>Tell us about your ideas to build your dream website</p>
+            </div>
+            <div class="mail-adress-container">
+                <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                <div id="mail-id">contactnexusconnect@gmail.com</div>
+            </div>
+           </aside>
+           <aside class="right">
+             <form action="https://formsubmit.co/e9939833f8f4356c4f10a84b7cc79e78" method="post">
+                <div class="user-input-box">
+                  <div>
+                    <p id="name-tag">Name</p>
+                    <input type="text" id="name-container" name="name" placeholder="Your Name" required>
+                  </div>
+                </div>
+                <div class="user-input-box">
+                  <div>
+                    <p id="email-tag">Email</p>
+                    <input type="email" id="email-container" 
+                    name="email" placeholder="Email Id" required>
+                  </div>
+                </div>
+                <div class="user-input-box">
+                  <div>
+                    <p id="message-tag">Message</p>
+                    <textarea type="text" name="message" id="message-container" placeholder="Your Message" required></textarea>
+                  </div>
+                </div>
+                <div class="form-submit-btn">
+                  <button type="submit" id="submit-btn">
+                    <p>Submit</p>
+                  </button>
+                </div>
+               </form>
+            </aside>
+        </div>            
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="hrz-line"></div>
+    <div class="socials">
+      <a href="https://github.com/Nexus-Connect">
+        <img id="github" src="/assets/icons/social_handles/github.svg">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100093203685842&mibextid=2JQ9oc">
+        <img id="facebook" src="/assets/icons/social_handles/facebook.svg">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+      <a href="https://instagram.com/nexusconnectcare?igshid=MzRlODBiNWFlZA==">
+        <img id="instagram" src="/assets/icons/social_handles/instagram-line.svg">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/nexusconnect">
+        <img id="linkedin" src="/assets/icons/social_handles/linkedin.svg">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="/scripts/animate.js"></script>
+  <script type="text/javascript" src="/scripts/tilt.min.js"></script>
+</body>
+</html>
