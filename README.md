@@ -3,18 +3,19 @@ Portfolio Website
 
 <br clear="both">
 
-<h2 align="center">Hi We are Nexus-Connect. We build websites you dream</h2>
+<h2 align="center">Hi We are Nexus-Connect. We build websites you dream</h2><br>
 
 ###
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=nexus-connect&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=nexus-connect&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+</div><br>
 
 ###
 
 <div align="center">
+  <h1 align="center">Our skills set</h1><br>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
@@ -50,11 +51,12 @@ Portfolio Website
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
-</div>
+</div><br><br>
 
 ###
 
 <div align="center">
+  <h1>Social Handles</h1><br>
   <a href="https://instagram.com/nexusconnectcare?igshid=MzRlODBiNWFlZA==">
   <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo" />
 </a>
@@ -70,12 +72,13 @@ Portfolio Website
 <a href="https://www.facebook.com/profile.php?id=100093203685842&mibextid=2JQ9oc">
   <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo" />
 </a>
-</div>
+</div><br><br>
 
 ###
 
 
 <div align="center">
+  <h2>No. of impressions</h2><br>
   <img src="https://profile-counter.glitch.me/nexus-connect/count.svg?"  />
 </div>
 
