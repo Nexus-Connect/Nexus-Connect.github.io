@@ -63,11 +63,6 @@ Portfolio Website
 
 ###
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/nexus-connect/nexus-connect/output/snake.svg" alt="Snake animation" />
-
-###
 
 <div align="center">
   <img src="https://profile-counter.glitch.me/nexus-connect/count.svg?"  />
