@@ -681,13 +681,15 @@ form {
   transition: 500ms ease-in-out;
 }
 #submit-btn:hover::before {
-  width: 135%;
+  width: 150%;
 }
 #submit-btn:hover {
   color: #ff0072;
-  transition: 500ms ease-in-out;
+  transition: 600ms ease-in-out;
 }
 #submit-btn p {
+  justify-self: center;
+  align-self: center;
   user-select: none;
 }
 footer {
